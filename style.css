@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #F5F5F5;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+.poisk{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 46px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+.poisk form{
+    height: 46px;
+    width: 88%;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.poisk input{
+    width: 100%;
+    height: 46px;
+    font-size: 24px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+.poisk img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    left: 6px;
+}
+.hleft{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 123.62px;
+    height: 46px;
+}
+.hright{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo{
+    width: 29%;
+    height: 46px;
+}
+.in{
+    width: 48%;
+    height: 46px;
+    font-size: 24px;
+    border: 2px solid #00A3FF;
+    border-radius: 10px;
+}
+.hright a{
+    position: relative;
+    top: 5px;
+}
+.in a{
+    text-decoration: none;
+    color: #00A3FF;
+}
+.sign{
+    width: 48%;
+    height: 46px;
+    font-size: 24px;
+    background-color: #00A3FF;
+    border-radius: 10px;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+}
+.mleft{
+    width: 67%;
+    position: relative;
+}
+.post1{
+    background-color: white;
+    border-radius: 10px;
+}
+.post1::before{
+    position: absolute;
+    content: ' ';
+    background-color: #DCDCDC;
+    position: absolute;
+    width: 30px;
+    height: 201%;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.autor{
+    width: 85%;
+    color: #F5F5F5;
+    font-size: 10px;
+    margin: 0 auto;
+}
+.posts{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+.public{
+    display: flex;
+    justify-content: space-between;
+}
+.public p{
+    width: 50%;
+}
+.grade{
+    margin-top: 19px;
+    background-color: #00A3FF;
+    height: 30px;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.comment{
+    text-align: end;
+    width: 23%;
+    background: url(images/comment-2\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+.like{
+    padding-left: 64px;
+    width: 50%;
+    background: url(images/heart-3\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 6%;
+}
+.post2{
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 10px;
+}
+.post2::before{
+    position: absolute;
+    content: ' ';
+    background-color: #DCDCDC;
+    width: 30px;
+    height: 396%;
+    border-radius: 10px 0px 0px 0px;
+}
+.vtoroy p{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.vtoroy{
+    flex-direction: column;
+    width: 85%;
+}
+.vtoroy img{
+    position: relative;
+    left: 10%;
+}
+.post3{
+    height: 180px;
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 155px;
+}
+.post3::before{
+    position: absolute;
+    content: ' ';
+    background-color: #DCDCDC;
+    position: absolute;
+    width: 30px;
+    height: 93.7%;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.tretiy{
+    height: 150px;
+}
+.mrigth{
+    margin-top: 35px;
+}
+.aiylokmot{
+    background: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+}
+.aiylokmot p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 85px;
+}.spisok{
+    height: 60px;
+    background-color: white;
+    margin-bottom: 2px;
+    position: relative;
+    text-align: center;
+    
+}
+.spisok p{
+    padding-top: 15px;
+}
+.naz::before{
+    content: '1';
+    position: absolute;
+    left: 30px;
+}
+.dop{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.dop a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #00A3FF;
+    width: 281px;
+    height: 37px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.reklama{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 33px;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+}
+.baner{
+    text-align: center;
+    height: 133px;
+    background-color: #FFC9C9;
+    width: 248px;
+    border-radius: 10px;
+    margin-top: 17px;
+    font-size: 14px;
+}
+
